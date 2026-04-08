@@ -1,0 +1,19 @@
+[app]
+name = "research-harness"
+workspace_root = "workspace"
+active_workspace_file = ".research-harness/active-workspace"
+
+[llm]
+provider = "mock"
+model = "mock-research"
+timeout_secs = 30
+
+[llm.openai]
+base_url = "https://api.openai.com/v1"
+api_key_env = "OPENAI_API_KEY"
+
+[index]
+chunk_size = 700
+chunk_overlap = 120
+embedding_dimensions = 32
+top_k = 6

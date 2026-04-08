@@ -1,0 +1,8 @@
+.env
+.idea/
+.research-harness/
+target/
+
+logs/
+sessions/
+workspace/
